@@ -53,7 +53,7 @@ async def init():
     await Tashri.start()
     try:
         await Tashri.stream_call(
-            "https://te.legra.ph/file/2a5a7a98b292606fc8a03.mp4"
+            "https://graph.org/file/83ec2821355336e588265.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("TashriX").error(
